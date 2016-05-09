@@ -1,0 +1,8 @@
+{
+    "BOT": "Hi there!\nI’m the personal bot of Seyhun Akyürek, a Software Engineer from Istanbul.\n![seyhunak](https://avatars1.githubusercontent.com/u/170820?v=3&s=460)\nWant to know more about bots or learn about Seyhun? %[I'm here for the bot](postback:here_for_the_bot) %[Learn about Seyhun](postback:learn_about_seyhunak) %[One random fact!](postback:random_fact)",
+    "HELLO": "Hey, I'm so glad you set Seyhun up! Do you want to tell Seyhun that you're talking to him bot? %[Tell him](postback:twitter)",
+    "TELL HIM": "Let's tweet @seyhunak so he knows you're setting a bot up. Here's a tweet that's ready to go: %[Tweet Seyhun](http://bit.ly/seyhunak-tweet)",
+    "I LOVE YOU": "Awh, shucks! I love you too!",
+    "CONNECT ME": "",
+    "DISCONNECT": "Roger that, Seyhun is back."
+}
