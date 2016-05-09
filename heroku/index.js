@@ -31,8 +31,8 @@ class BetterSmoochApiBot extends SmoochApiBot {
     }
 }
 
-const name = 'SmoochBot';
-const avatarUrl = 'https://s.gravatar.com/avatar/f91b04087e0125153623a3778e819c0a?s=80';
+const name = 'Seyhun';
+const avatarUrl = 'https://avatars1.githubusercontent.com/u/170820?v=3&s=460';
 const store = new SmoochApiStore({
     jwt
 });
@@ -56,7 +56,7 @@ function createWebhook(smoochCore, target) {
                         console.error('Error creating Smooch webhook:', err);
                         console.error(err.stack);
                     });
-            }            
+            }
         )
         .catch((err) => {
             console.error('Error creating Smooch webhook:', err);
@@ -93,7 +93,7 @@ app.post('/webhook', function(req, res, next) {
             store,
             userId
         })
-    });    
+    });
 
     if(!isPostback) {
         const messages = req.body.messages.reduce((prev, current) => {

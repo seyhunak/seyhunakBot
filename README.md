@@ -1,1 +1,2 @@
-# seyhunakBot built using the Smooch Bot, talk for me.
+## seyhunakBot is a conversational bot built for myself to to talk with you without me.
+### Powered by Smooch
